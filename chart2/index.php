@@ -82,7 +82,7 @@ $.getJSON("datas.php",function (data){
 // options.theme = 'myTheme';
 
     tui.chart.barChart(container, data, options);
-    /iya mohon maaf lahir dan batin oll           
+    //iya mohon maaf lahir dan batin oll           
 
 });
 </script>
