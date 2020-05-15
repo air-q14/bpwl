@@ -55,10 +55,10 @@ $.getJSON("datas.php",function (data){
             format: '1'
         },
         yAxis: {
-            title: 'Bulan'
+            title: 'Month'
         },
         xAxis: {
-            title: 'Orang',
+            title: 'People',
             min: 0,
             max: 350,
             suffix: ''
@@ -82,7 +82,7 @@ $.getJSON("datas.php",function (data){
 // options.theme = 'myTheme';
 
     tui.chart.barChart(container, data, options);
-    //maaf lahir bathin teman teman                
+    //Yuk itikaf udah 10 hari terakhir                
 
 });
 </script>
