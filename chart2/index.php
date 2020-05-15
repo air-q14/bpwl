@@ -37,7 +37,7 @@ $.getJSON("datas.php",function (data){
         categories: bulan,
         series: [
             {
-                name: 'Pendaftaran',
+                name: 'Yang mendaftar',
                 data: pendaftaran,
             },
             {
