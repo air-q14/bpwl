@@ -81,7 +81,8 @@ $.getJSON("datas.php",function (data){
 // tui.chart.registerTheme('myTheme', theme);
 // options.theme = 'myTheme';
 
-    tui.chart.barChart(container, data, options);
+    tui.chart.columnChart(container, data, options);
+    //permisi pak saya akan edit lagi sesuai dengan tugas yang bapak berikan(Vincent Chazali :))
     //maaf lahir bathin teman teman                
 
 });
