@@ -81,8 +81,9 @@ $.getJSON("datas.php",function (data){
 // tui.chart.registerTheme('myTheme', theme);
 // options.theme = 'myTheme';
 
-    tui.chart.barChart(container, data, options);
-    //maaf lahir bathin teman teman                
+    tui.chart.lineChart(container, data, options);
+    //nama saya amos gaes, saya ndak suka bermain game, saya sukanya cuma belajar saja 
+    // apalagi web
 
 });
 </script>
