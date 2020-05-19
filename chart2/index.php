@@ -55,7 +55,7 @@ $.getJSON("datas.php",function (data){
             format: '1'
         },
         yAxis: {
-            title: 'Bulan'
+            title: 'Tanggal'
         },
         xAxis: {
             title: 'Orang',
