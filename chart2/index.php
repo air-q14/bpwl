@@ -81,8 +81,7 @@ $.getJSON("datas.php",function (data){
 // tui.chart.registerTheme('myTheme', theme);
 // options.theme = 'myTheme';
 
-    tui.chart.barChart(container, data, options);
-    //maaf lahir bathin teman teman                
+    tui.chart.columnChart(container, data, options);              
 
 });
 </script>
