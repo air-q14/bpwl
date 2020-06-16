@@ -37,7 +37,7 @@ $.getJSON("datas.php",function (data){
         categories: bulan,
         series: [
             {
-                name: 'Pendaftaran',
+                name: 'Mendaftar',
                 data: pendaftaran,
             },
             {
@@ -58,7 +58,7 @@ $.getJSON("datas.php",function (data){
             title: 'Bulan'
         },
         xAxis: {
-            title: 'Orang',
+            title: 'Pendaftar',
             min: 0,
             max: 350,
             suffix: ''
@@ -81,7 +81,7 @@ $.getJSON("datas.php",function (data){
 // tui.chart.registerTheme('myTheme', theme);
 // options.theme = 'myTheme';
 
-    tui.chart.barChart(container, data, options);
+    tui.chart.lineChart(container, data, options);
     //maaf lahir bathin teman teman                
 
 });
