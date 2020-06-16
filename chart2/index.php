@@ -81,7 +81,8 @@ $.getJSON("datas.php",function (data){
 // tui.chart.registerTheme('myTheme', theme);
 // options.theme = 'myTheme';
 
-    tui.chart.barChart(container, data, options);
+//     tui.chart.barChart(container, data, options);A
+    tui.chart.lineChart(container, data, options);
     //maaf lahir bathin teman teman                
 
 });
